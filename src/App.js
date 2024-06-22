@@ -5,7 +5,7 @@ import { Banner } from './components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
-import { ProjectCard } from './components/ProjectCard';
+
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <ProjectCard />
+      
     </div>
   );
 }

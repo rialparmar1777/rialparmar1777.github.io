@@ -9,28 +9,28 @@ export const Projects = () => {
 
   const projects= [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Google Alexa",
+      description: "Python Project",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Movie-Booking Website",
+      description: "React JS",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Q-Game",
+      description: "C# - Game developing",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Blood Pressure Measurement Web",
+      description: ".NET Project",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Chat Application",
+      description: "Java - Firebase Backend",
       imgUrl: projImg2,
     },
     {
