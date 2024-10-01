@@ -110,7 +110,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img src="https://via.placeholder.com/1000x200" alt="Background Image" className="background-image-left" />
+            <img src="https://via.placeholder.com/1000x200" alt="Background" className="background-image-left" />
         </section>
     );
 };
