@@ -1,0 +1,46 @@
+.banner {
+    padding-top: 80px; 
+}
+
+.header-img {
+    margin-top: 80px; 
+}
+
+.wrap {
+    display: inline-block;
+    margin-left: 0px; 
+}
+
+.intro-text {
+    margin-top: 20px; 
+}
+
+.connect-button-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #333, #555);
+    border: none;
+    border-radius: 30px;
+    padding:15px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.connect-button-dark:hover {
+    background: linear-gradient(90deg, #555, #333);
+    transform: scale(1.05);
+}
+
+.connect-button-dark svg {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.connect-button-dark:hover svg {
+    transform: translateX(5px);
+}

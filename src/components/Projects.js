@@ -1,13 +1,17 @@
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img1.jpeg";
+import projImg2 from "../assets/img/project-img2.jpeg";
+import projImg7 from "../assets/img/project-img7.jpeg";
+import projImg4 from "../assets/img/project-img4.jpeg";
+import projImg5 from "../assets/img/project-img5.jpeg";
+import projImg6 from "../assets/img/project-img6.jpeg";
+import projImg3 from "../assets/img/project-img3.jpeg"; 
+
 
 export const Projects = () => {
-
-  const projects= [
+  const projectsTabOne = [
     {
       title: "Google Alexa",
       description: "Python Project",
@@ -19,23 +23,32 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Q-Game",
+      title: "Puzzle Block Game",
       description: "C# - Game developing",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
     },
     {
       title: "Blood Pressure Measurement Web",
       description: ".NET Project",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Chat Application",
       description: "Java - Firebase Backend",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Church Website",
+      description: "Front-End React.js",
+      imgUrl: projImg6,
+    },
+    
+  ];
+
+  const projectsTabTwo = [
+    {
+      title: "Q-Game",
+      description: "C# - Game developing",
       imgUrl: projImg3,
     },
   ];
@@ -47,46 +60,46 @@ export const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.{" "}
+              Explore a selection of my recent projects, showcasing my skills in
+              web development, design, and problem-solving. Each project
+              highlights my ability to create functional and visually appealing
+              solutions tailored to meet specific needs.
             </p>
+
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-            <Nav variant="pills"  className="nav-pills mb-5 justify-content-centre align-items-center" id="pills-tab">
-              <Nav.Item>
-                <Nav.Link eventKey="first">Tab One</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey="second">Tab Two</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey="third">
-                  Tab Three
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-            <Tab.Content>
-              <Tab.Pane eventKey="first">
-                <Row>
-                  {
-                    projects.map((project, index) => {
-                      return (
-                        <ProjectCard
-                        key={index}
-                        {...project}
-                        />
-                      )
-                    })
-                  }
-                </Row>
-              </Tab.Pane>
-              <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-              <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
-            </Tab.Content>
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Tab One</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                </Nav.Item>
+              </Nav>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <Row>
+                    {projectsTabOne.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <Row>
+                    {projectsTabTwo.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
+              </Tab.Content>
             </Tab.Container>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="Background" />
     </section>
   );
 };

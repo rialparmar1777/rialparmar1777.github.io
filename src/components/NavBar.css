@@ -1,0 +1,48 @@
+/* Profile picture styling */
+.profile-pic {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Navbar link styling */
+.navbar-link {
+    color: #fff;
+    margin-right: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1em; /* Slightly larger font size */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.navbar-link:hover, .navbar-link.active {
+    color: #ffd700; /* Gold color for active and hover state */
+    text-decoration: underline;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Social icons styling */
+.social-icon a {
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon a:hover {
+    transform: scale(1.1);
+}
+
+/* Button styling */
+.vvd {
+    background-color: #ffd700; /* Gold color */
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden; /* Ensure the rounded shape is maintained */
+}
+
+.vvd:hover {
+    background-color: #ffcc00; /* Slightly darker gold */
+    transform: scale(1.05);
+}
