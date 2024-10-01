@@ -1,14 +1,15 @@
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.jpeg";
-import projImg2 from "../assets/img/project-img2.jpeg";
-import projImg7 from "../assets/img/project-img7.jpeg";
-import projImg4 from "../assets/img/project-img4.jpeg";
-import projImg5 from "../assets/img/project-img5.jpeg";
-import projImg6 from "../assets/img/project-img6.jpeg";
-import projImg3 from "../assets/img/project-img3.jpeg"; 
+import projImg1 from "../assets/img/project-img1.jpg";
+import projImg2 from "../assets/img/project-img2.jpg";
+import projImg3 from "../assets/img/project-img3.jpg";
+import projImg4 from "../assets/img/project-img4.jpg";
+import projImg5 from "../assets/img/project-img5.jpg";
+import projImg6 from "../assets/img/project-img6.jpg";
+import projImg7 from "../assets/img/project-img7.jpg"; 
 
+import './Projects.css'; 
 
 export const Projects = () => {
   const projectsTabOne = [
@@ -25,7 +26,7 @@ export const Projects = () => {
     {
       title: "Puzzle Block Game",
       description: "C# - Game developing",
-      imgUrl: projImg7,
+      imgUrl: projImg3,
     },
     {
       title: "Blood Pressure Measurement Web",
@@ -42,14 +43,13 @@ export const Projects = () => {
       description: "Front-End React.js",
       imgUrl: projImg6,
     },
-    
   ];
 
   const projectsTabTwo = [
     {
       title: "Q-Game",
       description: "C# - Game developing",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
     },
   ];
 

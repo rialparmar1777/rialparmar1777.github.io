@@ -48,6 +48,13 @@ export const Banner = () => {
     }
   };
 
+  const scrollToContact = () => {
+    const element = document.getElementById("connect");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -67,7 +74,7 @@ export const Banner = () => {
             </p>
             <button
               className="connect-button-dark"
-              onClick={() => console.log("connect")}
+              onClick={scrollToContact}
             >
               Let's Connect Together
               <ArrowRightCircle size={40} />

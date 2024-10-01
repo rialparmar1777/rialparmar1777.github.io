@@ -1,21 +1,21 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import profilePic from '../assets/img/ProfilePic.jpeg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-import './NavBar.css';
+import profilePic from "../assets/img/ProfilePic.jpeg";
+import navIcon1 from "../assets/img/github1.png";
+import navIcon2 from "../assets/img/nav-icon2.png";
+import navIcon3 from "../assets/img/nav-icon3.svg";
+import "./NavBar.css";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, seScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
-        seScrolled(true);
+        setScrolled(true);
       } else {
-        seScrolled(false);
+        setScrolled(false);
       }
     };
 
@@ -26,6 +26,10 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    const element = document.getElementById(value);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -69,17 +73,20 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://github.com/rialparmar1777">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/rial-parmar-886b38145/">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/r.i.a.l_p.a.r.m.a.r/">
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button
+              className="vvd"
+              onClick={() => onUpdateActiveLink("connect")}
+            >
               <span>Let's Connect</span>
             </button>
           </span>

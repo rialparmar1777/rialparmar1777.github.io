@@ -35,13 +35,21 @@
 }
 
 .skill-description {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 40px;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.9;
     max-width: 800px;
     margin: 0 auto; /* Center the paragraph */
+    text-align: center; /* Center the text */
+    padding-left: 350px; /* Add padding to the left */
 }
+
+
+.skill-bx {
+    text-align: center; /* Center the content within the skill box */
+}
+
 
 .carousel-container {
     display: flex;
@@ -66,8 +74,8 @@
 }
 
 .skill-img {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+    width: 100px; 
+    height: 100px; 
     margin-bottom: 10px;
 }
 
