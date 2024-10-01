@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05aeb45c.css",
+    "main.js": "/static/js/main.bae4f7c2.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/project-img3.jpg": "/static/media/project-img3.c2eb7437c538b37d5935.jpg",
+    "static/media/project-img1.jpg": "/static/media/project-img1.7e790a35cfb8506b9943.jpg",
+    "static/media/project-img6.jpg": "/static/media/project-img6.929199cf5e864db54f72.jpg",
+    "static/media/project-img4.jpg": "/static/media/project-img4.38ca4cb66351ba11d9d9.jpg",
+    "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.a5b5ae09c57b2fa783e6.jpeg",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-img2.jpg": "/static/media/project-img2.d9dab80fe4b0ef73656b.jpg",
+    "static/media/project-img5.jpg": "/static/media/project-img5.1ee80989bec4fb1cec82.jpg",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/static/media/header-img.400baa4260daac98f2b2b1ccf08761c2.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/contact-img.svg": "/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
+    "static/media/github1.png": "/static/media/github1.9e094d235b4caa7c31fc.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/project-img7.jpg": "/static/media/project-img7.e31e0cb94ec264de8a3f.jpg",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/nav-icon2.png": "/static/media/nav-icon2.6773075d296dff8ca440.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "index.html": "/index.html",
+    "main.05aeb45c.css.map": "/static/css/main.05aeb45c.css.map",
+    "main.bae4f7c2.js.map": "/static/js/main.bae4f7c2.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05aeb45c.css",
+    "static/js/main.bae4f7c2.js"
+  ]
+}
