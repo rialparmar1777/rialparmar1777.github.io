@@ -17,31 +17,42 @@ export const Projects = () => {
       title: "Google Alexa",
       description: "Python Project",
       imgUrl: projImg1,
+      href:"#"
+
     },
     {
       title: "Movie-Booking Website",
       description: "React JS",
       imgUrl: projImg2,
+      href:"#"
+
     },
     {
       title: "Puzzle Block Game",
       description: "C# - Game developing",
       imgUrl: projImg3,
+      href:"#"
+
     },
     {
       title: "Blood Pressure Measurement Web",
       description: ".NET Project",
       imgUrl: projImg4,
+      href:"#"
+
     },
     {
       title: "Chat Application",
       description: "Java - Firebase Backend",
       imgUrl: projImg5,
+      href:"#"
+
     },
     {
       title: "Church Website",
       description: "Front-End React.js",
       imgUrl: projImg6,
+      href:"https://rialparmar1777.github.io/churchwebsite/"
     },
   ];
 
@@ -50,6 +61,8 @@ export const Projects = () => {
       title: "Q-Game",
       description: "C# - Game developing",
       imgUrl: projImg7,
+      href:"#"
+
     },
   ];
 
