@@ -18,18 +18,42 @@
 .navbar-link:hover, .navbar-link.active {
     color: #ffd700; /* Gold color for active and hover state */
     text-decoration: underline;
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1); /* Slightly enlarge on  hover */
 }
 
-/* Social icons styling */
-.social-icon a {
-    margin-right: 15px;
-    transition: transform 0.3s ease;
+/* GitHub and LinkedIn icons styling */
+.social-icon a img[alt="GitHub"],
+.social-icon a img[alt="LinkedIn"] {
+    filter: brightness(0) invert(1); /* Make icons white initially */
+    width: 30px; /* Adjust size as needed */
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background-color: transparent; /* No background initially */
+    padding: 5px; /* Add padding for hover effect */
 }
 
-.social-icon a:hover {
+.social-icon a:hover img[alt="GitHub"],
+.social-icon a:hover img[alt="LinkedIn"] {
+    filter: brightness(1) invert(0); /* Make icons black on hover */
+    background-color: #fff; /* White background on hover */
     transform: scale(1.1);
 }
+
+/* Instagram icon styling */
+.social-icon a img[alt="Instagram"] {
+    filter: brightness(1); /* Keep Instagram icon as is */
+    width: 30px; /* Adjust size as needed */
+    transition: all 0.3s ease;
+    padding: 5px; /* Add padding for hover effect */
+    background-color: #000;
+}
+
+/* Instagram icon hover effect */
+.social-icon a:hover img[alt="Instagram"] {
+    filter: sepia(1) hue-rotate(150deg) saturate(500%); /* Unique color effect */
+    transform: rotate(20deg) scale(1.1); /* Add rotation and scaling for a distinct hover effect */
+}
+
 
 /* Button styling */
 .vvd {
