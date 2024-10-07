@@ -7,9 +7,9 @@ import projImg3 from "../assets/img/project-img3.jpg";
 import projImg4 from "../assets/img/project-img4.jpg";
 import projImg5 from "../assets/img/project-img5.jpg";
 import projImg6 from "../assets/img/project-img6.jpg";
-import projImg7 from "../assets/img/project-img7.jpg"; 
+import projImg7 from "../assets/img/project-img7.jpg";
 
-import './Projects.css'; 
+import "./Projects.css";
 
 export const Projects = () => {
   const projectsTabOne = [
@@ -17,42 +17,43 @@ export const Projects = () => {
       title: "Google Alexa",
       description: "Python Project",
       imgUrl: projImg1,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
     {
       title: "Movie-Booking Website",
       description: "React JS",
       imgUrl: projImg2,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
     {
       title: "Puzzle Block Game",
       description: "C# - Game developing",
       imgUrl: projImg3,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
     {
       title: "Blood Pressure Measurement Web",
       description: ".NET Project",
       imgUrl: projImg4,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
     {
       title: "Chat Application",
       description: "Java - Firebase Backend",
       imgUrl: projImg5,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
     {
       title: "Church Website",
       description: "Front-End React.js",
       imgUrl: projImg6,
-      href:"https://rialparmar1777.github.io/churchwebsite/"
+      href: "https://rialparmar1777.github.io/churchwebsite/",
+      className: "white-text",
     },
   ];
 
@@ -61,8 +62,8 @@ export const Projects = () => {
       title: "Q-Game",
       description: "C# - Game developing",
       imgUrl: projImg7,
-      href:"#"
-
+      href: "#",
+      className: "white-text",
     },
   ];
 
@@ -112,7 +113,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="Background" />
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="Background"
+      />
     </section>
   );
 };

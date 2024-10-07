@@ -30,3 +30,8 @@
   height: auto;
   z-index: -1;
 }
+
+.white-text {
+  color: white;
+}
+
